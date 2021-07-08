@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(255, 255, 0, 0.986);
+}
+
+li {
+    float: left;
+}
+
+
+
+div.a {
+    text-align: center; 
+}
+
+div.b {
+    text-align: left; 
+}
+
+div.c {
+    text-align: right;
+}
+
+div {
+    text-align: justify;
+}
+

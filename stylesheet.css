@@ -1,0 +1,167 @@
+body {
+  background-color: grey;
+}
+h1 {
+  color: yellow;
+  text-align: center;
+  font-size: 55px;
+  font-family: fantasy;
+}
+h2 {
+  color: black;
+  font-size: 30px;
+  font-family: fantasy;
+  text-align: center;
+}
+p {
+  color: rgba(0, 0, 0, 0.76);
+  text-align: center;
+  display: table-row;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: yellow;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+li {
+  float: left;
+  font-family: fantasy;
+  color: black;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  padding: 18px 105px;
+  text-decoration: none;
+}
+.grid {
+  display: grid;
+  box-sizing: border-box;
+  margin: 8px;
+  padding: 12px 15px;
+}
+* {
+  box-sizing: border-box;
+  align-items: center;
+  padding: 14px 20px;
+  margin: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+/* clearfix (clearfloats) */
+.row ::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+img {
+  display: inline-block;
+  margin: 0px;
+  width: 100%;
+}
+p {
+  margin-top: 200px;
+}
+h1 {
+  margin-top: 100px;
+}
+h2 {
+  margin-top: 50px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0;
+  align-items: center;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.div {
+  margin: 0mm;
+  padding: 0mm;
+}
+
+.li {
+  display: block;
+  padding: 8px;
+}
+.input {
+  width: 120px;
+  align-items: center;
+}
+.div.a {
+  text-align: center;
+}
+
+.div.b {
+  text-align: left;
+}
+
+.div.c {
+  text-align: right;
+}
+
+.div {
+  text-align: justify;
+}
+
+.h {
+  text-align: center;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 100%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.grid {
+  display: grid;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: start;
+  box-sizing: content-box;
+  margin: 8px;
+  text-align: center;
+}
